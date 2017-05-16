@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkhilaKandi-FinalProject", "AkhilaKandi-FinalProject\AkhilaKandi-FinalProject.csproj", "{F018D4BB-5CDA-4708-A0F8-0293EB2335C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorLoggerDataBase", "ErrorLoggerDataBase\ErrorLoggerDataBase.csproj", "{7EBE7484-D255-4A8E-AA7A-958EEA476E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadersAndLogic", "LoadersAndLogic\LoadersAndLogic.csproj", "{A9891561-1EC0-4EF4-9C75-51FF84290F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{2378E95F-A7F9-4410-B877-7712FF5DD73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLlib", "DLLlib\DLLlib.csproj", "{914EE409-E609-4AC3-8CAF-8D501B2EBEAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8D1A4511-E69B-4298-A03A-2A16E282832A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Client", "Test Client\Test Client.csproj", "{669BA9FB-76AD-4C56-9164-7B493D662777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{1EEE5D91-76F6-4A92-9F56-B7B8DFC8922B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F018D4BB-5CDA-4708-A0F8-0293EB2335C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F018D4BB-5CDA-4708-A0F8-0293EB2335C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F018D4BB-5CDA-4708-A0F8-0293EB2335C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F018D4BB-5CDA-4708-A0F8-0293EB2335C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBE7484-D255-4A8E-AA7A-958EEA476E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBE7484-D255-4A8E-AA7A-958EEA476E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBE7484-D255-4A8E-AA7A-958EEA476E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBE7484-D255-4A8E-AA7A-958EEA476E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9891561-1EC0-4EF4-9C75-51FF84290F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9891561-1EC0-4EF4-9C75-51FF84290F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9891561-1EC0-4EF4-9C75-51FF84290F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9891561-1EC0-4EF4-9C75-51FF84290F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2378E95F-A7F9-4410-B877-7712FF5DD73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2378E95F-A7F9-4410-B877-7712FF5DD73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2378E95F-A7F9-4410-B877-7712FF5DD73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2378E95F-A7F9-4410-B877-7712FF5DD73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914EE409-E609-4AC3-8CAF-8D501B2EBEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914EE409-E609-4AC3-8CAF-8D501B2EBEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914EE409-E609-4AC3-8CAF-8D501B2EBEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914EE409-E609-4AC3-8CAF-8D501B2EBEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1A4511-E69B-4298-A03A-2A16E282832A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1A4511-E69B-4298-A03A-2A16E282832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1A4511-E69B-4298-A03A-2A16E282832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1A4511-E69B-4298-A03A-2A16E282832A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669BA9FB-76AD-4C56-9164-7B493D662777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669BA9FB-76AD-4C56-9164-7B493D662777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669BA9FB-76AD-4C56-9164-7B493D662777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669BA9FB-76AD-4C56-9164-7B493D662777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEE5D91-76F6-4A92-9F56-B7B8DFC8922B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEE5D91-76F6-4A92-9F56-B7B8DFC8922B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEE5D91-76F6-4A92-9F56-B7B8DFC8922B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEE5D91-76F6-4A92-9F56-B7B8DFC8922B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://akhilakandi.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AkhilaKandi-FinalProject\\AkhilaKandi-FinalProject.csproj
+		SccProjectName1 = AkhilaKandi-FinalProject
+		SccLocalPath1 = AkhilaKandi-FinalProject
+		SccProjectUniqueName2 = DLLlib\\DLLlib.csproj
+		SccProjectName2 = DLLlib
+		SccLocalPath2 = DLLlib
+		SccProjectUniqueName3 = ErrorLoggerDataBase\\ErrorLoggerDataBase.csproj
+		SccProjectName3 = ErrorLoggerDataBase
+		SccLocalPath3 = ErrorLoggerDataBase
+		SccProjectUniqueName4 = LoadersAndLogic\\LoadersAndLogic.csproj
+		SccProjectName4 = LoadersAndLogic
+		SccLocalPath4 = LoadersAndLogic
+		SccProjectUniqueName5 = Logger\\Logger.csproj
+		SccProjectName5 = Logger
+		SccLocalPath5 = Logger
+		SccProjectUniqueName6 = Common\\Common.csproj
+		SccProjectName6 = Common
+		SccLocalPath6 = Common
+		SccProjectUniqueName7 = Test\u0020Client\\Test\u0020Client.csproj
+		SccProjectName7 = Test\u0020Client
+		SccLocalPath7 = Test\u0020Client
+		SccProjectUniqueName8 = RESTService\\RESTService.csproj
+		SccProjectName8 = RESTService
+		SccLocalPath8 = RESTService
+	EndGlobalSection
+EndGlobal

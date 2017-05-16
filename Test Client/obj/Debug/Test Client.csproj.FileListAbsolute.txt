@@ -1,0 +1,12 @@
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Test Client.exe.config
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Test Client.exe
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Test Client.pdb
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\DLLlib.dll
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Common.exe
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\DLLlib.pdb
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Common.pdb
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\obj\Debug\Test Client.csprojResolveAssemblyReference.cache
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\obj\Debug\Test Client.exe
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\Test Client\obj\Debug\Test Client.pdb

@@ -1,0 +1,96 @@
+﻿@model ErrorLoggerDataBase.userDetails
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<style>
+    form {
+        border: 1px dotted #808080;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #0094ff;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 33%;
+    }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+    .container {
+    }
+</style>
+
+<html>
+<body>
+   
+    <center>
+        
+        <h2>Register</h2>
+        <form action="">
+            <div class="container">
+                <br />
+                <table>
+                    <tr>
+                        <th>
+                            @Html.LabelFor(model => model.firstName)
+                            <label><b>First Name</b></label>
+                        </th>
+                        <th>
+                           <input class="form-control" type="text" placeholder="Enter Your First Name" name="fname" required />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label><b>Last Name</b></label></th>
+                        <th><input class="form-control" type="text" placeholder="Enter Your Last Name" name="lname" required /></th>
+                    </tr>
+                    <tr>
+                        <th><label><b>Username</b></label></th>
+                        <th><input class="form-control" type="text" placeholder="Enter Your Email Address" name="username" required /></th>
+                    </tr>
+                    <tr>
+                        <th><label><b>Password</b></label></th>
+                        <th><input class="form-control" type="password" placeholder="Enter Password" name="pwd" id="pwd" required /></th>
+                    </tr>
+                    <tr>
+                        <th><label><b>Confirm Password</b></label></th>
+                        <th>
+                        <input class="form-control" data-val="true" placeholder="Enter Password" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.pwd" id="ConfirmPassword" name="ConfirmPassword" type="password" />
+
+                        
+                        
+                        
+                       
+                    </tr>
+                    
+                </table>
+              
+                
+                <button type="submit">Login</button>
+                <br />
+                <a href="startPage">New User? Register Here!</a>
+                <br /> <br />
+            </div>
+        </form>
+    </center>
+
+</body>
+</html>
+
+
+

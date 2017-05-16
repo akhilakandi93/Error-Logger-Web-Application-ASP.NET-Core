@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/menuBar.css")" />
+
+<style>
+    #footer{
+        position:fixed;
+        bottom:0;
+        left:0;
+    }
+</style>
+<html>
+<head>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+@{ }
+<body>
+<div class="topmost">
+    <br />
+    <center>
+        <h1 style="font-size:280%;font-family:verdana;color:white;"><b>INTERNET PROGRAMMING</b></h1>
+    </center>
+    <br />
+</div>
+    
+    <div class="topnav">
+        @if(Request.IsAuthenticated && (User.Identity.Name=="abhi@syr.edu" || User.Identity.Name == "akhila@syr.edu")){
+            <li>@Html.ActionLink("Home","Index","Admin")</li>
+        }
+        @if(Request.IsAuthenticated && User.Identity.Name!= "abhi@syr.edu" && User.Identity.Name != "akhila@syr.edu"){
+            <li>@Html.ActionLink("Home","Index","User")</li>
+        }
+
+     <li>   @Html.Partial("_LoginPartial")</li>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <br /><br /><br />
+        <footer>
+            <hr />
+ 
+            <center><p>&copy; @DateTime.Now.Year - Akhila Kandi</p></center> 
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

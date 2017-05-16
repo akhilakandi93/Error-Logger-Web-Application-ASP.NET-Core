@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ErrorLoggerDataBase.userDetails>
+
+@{
+    ViewBag.Title = "inactiveUsers";
+}
+<title>
+    Inactive Users
+</title>
+<h2>Inactive Users</h2>
+
+<h5 align="right">
+    @Html.ActionLink("Go Home", "Index")
+</h5>
+<table class="table">
+    <tr>
+        <th>
+           <b>User ID</b>
+        </th>
+        <th>
+           <b>First Name</b>
+        </th>
+        <th>
+           <b>Last Name</b>
+        </th>
+       <th>
+          <b>Last Logged Time</b>
+       </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.userDetailsID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.firstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lastName)
+        </td>
+       <td>
+           @Html.DisplayFor(modelItem => item.lastLoggedTime)
+       </td>
+        <td>
+            @Html.ActionLink("Enable", "changeStatusToActive",  new { userId = item.userDetailsID}, null)
+           
+        </td>
+    </tr>
+}
+
+</table>

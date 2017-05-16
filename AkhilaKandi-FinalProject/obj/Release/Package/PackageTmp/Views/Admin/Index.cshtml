@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<title>
+    Home
+</title>
+
+
+<div class="bottomRowMenu">
+    <div>
+        <br /><br />
+       
+        <fieldset>
+            <legend><h2>Applications</h2></legend>
+            @Html.ActionLink("Create New Application", "createNew" , "Admin")
+            <br />
+            @Html.ActionLink("Active Applications", "activeApps", "Admin")
+            <br />
+           @Html.ActionLink("Disabled Applications", "disabledApps", "Admin")
+        </fieldset>
+                    <br /><br />
+                <fieldset>
+
+                    <legend><h2>Users</h2></legend>
+                    @Html.ActionLink("Active Users", "activeUsers", "Admin")
+                    <br />
+                    @Html.ActionLink("Inactive Users", "inactiveUsers", "Admin")
+                </fieldset>
+                    
+    </div>
+</div>
+
+

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ErrorLoggerDataBase.Logger>
+
+@{
+    ViewBag.Title = "ViewLogs";
+}
+<title>Logs</title>
+<h2>Logs</h2>
+<h5 align="right">
+    @Html.ActionLink("Go Back","Index")
+</h5>
+@using (Html.BeginForm("ViewLogs", "User", FormMethod.Get)) { <p>
+    
+    @Html.TextBox("appId",(int)ViewBag.appId,new { style="display:none"})
+    Find By Description: @Html.TextBox("searchString",ViewBag.currentFilter as string)
+    <input type="submit" value="Search" />
+    </p>
+}
+<table>
+    <tr>
+<table class="table">
+    <tr>
+        <th>
+           <b color="#4283ed">Application Name</b>
+        </th>
+        <th>
+            <b color="#4283ed">Error Description</b>
+        </th>
+        <th>
+           @Html.ActionLink("Creation Time", "ViewLogs",new { appId= ViewBag.appId,sortOrder=ViewBag.TimeSort, currentFilter=ViewBag.currentFilter})
+        </th>
+        <th>
+            @Html.ActionLink("Error Type","ViewLogs", new { appId=ViewBag.appId,sortOrder=ViewBag.TypeSort, currentFilter = ViewBag.currentFilter })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppID.AppName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ErrorDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.errorTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type)
+        </td>
+      
+    </tr>
+}
+
+</table>
+        </tr>
+<tr>
+    <tr>
+
+    <img src="@Url.Action("DispChart", "User" )" alt="Chart" />
+
+
+</tr>
+</table>

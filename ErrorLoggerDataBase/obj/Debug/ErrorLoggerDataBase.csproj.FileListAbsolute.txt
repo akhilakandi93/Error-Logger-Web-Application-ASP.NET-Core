@@ -1,0 +1,6 @@
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\bin\Debug\ErrorLoggerDataBase.dll
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\bin\Debug\ErrorLoggerDataBase.pdb
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\bin\Debug\log4net.dll
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\bin\Debug\log4net.xml
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\obj\Debug\ErrorLoggerDataBase.dll
+C:\Users\Akhila Kandi\documents\visual studio 2015\Projects\AkhilaKandi-FinalProject\ErrorLoggerDataBase\obj\Debug\ErrorLoggerDataBase.pdb

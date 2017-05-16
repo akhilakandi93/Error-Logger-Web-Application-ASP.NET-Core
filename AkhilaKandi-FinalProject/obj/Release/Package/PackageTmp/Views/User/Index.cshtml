@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ErrorLoggerDataBase.appInformation>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<title>
+    Home
+</title>
+<br /><br />
+<table class="table">
+  <tr>
+      <td>
+          <b>Application Name</b>
+      </td>
+      <td>
+          <b>Application Description</b>
+      </td>
+      <td>
+          <b>Application Created Time</b>
+      </td>
+  </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AppDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.createdDate)
+        </td>
+       
+        <td>
+           
+            @Html.ActionLink("Logs", "ViewLogs", new { appId=item.appInformationID , sortOrder=""}) 
+            
+        </td>
+    </tr>
+}
+
+</table>
+
